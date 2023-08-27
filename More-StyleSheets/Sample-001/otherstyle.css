@@ -1,0 +1,9 @@
+p {
+  color: blue;
+} /* Especificidade: 0, 0, 0, 1 */
+p.text {
+  color: red;
+} /* Especificidade: 0, 0, 1, 1 */
+#special-paragraph {
+  color: green;
+} /* Especificidade: 0, 1, 0, 0 */
