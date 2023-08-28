@@ -1,0 +1,9 @@
+li {
+  list-style-type: square;
+}
+/* li {
+  list-style-image: url(images/bullet.png);
+} */
+/* li {
+  list-style-image: linear-gradient(to left bottom, red, blue);
+} */
