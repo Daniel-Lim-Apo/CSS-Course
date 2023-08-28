@@ -1,0 +1,12 @@
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4fc;
+  height: 500px;
+}
+
+.Aligner-item {
+  background: #34d;
+  max-width: 50%;
+}

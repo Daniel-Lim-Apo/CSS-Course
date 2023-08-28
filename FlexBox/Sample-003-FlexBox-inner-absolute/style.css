@@ -1,0 +1,17 @@
+#main {
+  position: fixed;
+  background: #cc3;
+  width: 500px;
+  height: 500px;
+  left: 200px;
+}
+#inner {
+  position: absolute;
+  /*    Uncomment to see how fixed looks like*/
+  /*   position: fixed; */
+  width: 100px;
+  height: 100px;
+  background: #1d3;
+  left: 100px;
+  top: 100px;
+}

@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-size: 22px;
+  font-family: "Helvetica", sans-serif;
+  color: #333333;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 2px solid #cccccc;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 470px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+.item {
+  background-color: orange;
+  height: 150px;
+  width: 31%;
+  margin: 1%;
+  padding: 10px;
+}
+
+.item:nth-child(2) {
+  background-color: pink;
+  height: 250px;
+}
+
+.item:nth-child(3) {
+  height: 190px;
+}
+
+.item:nth-child(4) {
+  background-color: aqua;
+  height: 220px;
+}
